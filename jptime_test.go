@@ -221,7 +221,7 @@ type JpTimeWarekiTest struct {
 
 var warekitests = []JpTimeWarekiTest{
 	{time.Date(0, time.December, 31, 0, 0, 0, 0, time.Local), "紀元前", "B.C.", 1},
-
+	{time.Date(1, time.January, 1, 0, 0, 0, 0, time.Local), "西暦", "A.D.", 1},
 	{time.Date(1873, time.January, 1, 0, 0, 0, 0, time.Local), "明治", "M", 6},
 	{time.Date(1912, time.July, 29, 0, 0, 0, 0, time.Local), "明治", "M", 45},
 	{time.Date(1912, time.July, 30, 0, 0, 0, 0, time.Local), "大正", "T", 1},
